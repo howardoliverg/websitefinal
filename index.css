@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: 'Lobster', cursive;
+}
+
+/* HEADER */
+
+header{
+    background-color: rgb(37, 33, 33);
+    padding: 20px;
+    width: 100vw;
+    height: 200px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin-top: 60px;
+}
+header .logo a {
+    background-image: url("theialogo.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+    text-indent: -99999999px;
+    top: -80px;
+    height: 200px;
+}
+.heading {
+    display: flex;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    flex-direction: column;
+    font-size: xx-large;
+    justify-content: space-evenly;
+}
+
+/* INTRO */
+.intro{
+    display: flex;
+    background-color: rgb(61, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    flex-direction: column;
+    font-family:  'Lexend', sans-serif;
+}
+.firstsec{
+    display: flex;
+
+}
+.text1{
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    justify-content: center;
+    font-size: x-large;
+    flex-direction: column;
+    padding: 100px;
+}
+.intro2{
+    display: flex;
+    background-color: rgb(61, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    flex-direction: column;
+    font-family:  'Lexend', sans-serif;
+}
+.secondsec{
+    display: flex;
+}
+.text2{
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    justify-content: center;
+    font-size: x-large;
+    flex-direction: column;
+    padding: 100px;
+}
+.intro3{
+    display: flex;
+    background-color: rgb(61, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    flex-direction: column;
+    font-family:  'Lexend', sans-serif;
+}
+.fast{
+    display: flex;
+    flex-direction: column;
+}
+.text3{
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    justify-content: flex-end;
+    font-size: x-large;
+    flex-direction: column;
+    padding: 100px;
+}
+.intro4{
+    display: flex;
+    background-color: rgb(61, 48, 48);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    flex-direction: column;
+    font-family:  'Lexend', sans-serif;
+}
+.decade{
+    display: flex;
+    flex-direction: column;
+}
+.text4{
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    justify-content: flex-end;
+    font-size: x-large;
+    flex-direction: column;
+    padding: 100px;
+}
+
+/* contact */
+body.h1{
+    font-family:  'Lexend', sans-serif;
+}
+/* FOOTER */
+footer {
+    display: flex;
+    background-color: rgb(37, 33, 33);
+    width: 100vw;
+    margin-right: 20px;
+    font-family:  'Lexend', sans-serif;
+}
+footer h3 {
+    color: white;
+}
